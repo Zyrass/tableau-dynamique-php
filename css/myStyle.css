@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+body {
+    box-sizing: border-box;
+    background:#888;
+    width:800px;
+    margin:0 auto;
+    font-family:'verdana';
+}
+
+h1, table tr th, a {
+    color: #f7f7f7;
+}
+
+table {
+    width:100%;
+    margin-top:20px;
+    margin-bottom: 20px;
+    border-collapse:collapse;
+}
+
+table tr {
+    height:40px;
+}
+
+table tr th{
+    background:#2f3032;
+}
+
+table tr th{
+    background:#2f3032;
+}
+
+table tr td{
+    background:#f7f7f7;
+    color:#4589b6;
+    text-align:center;
+}
+
+a{
+    font-weight:bold;
+}
