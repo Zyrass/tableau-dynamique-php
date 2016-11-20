@@ -1,0 +1,36 @@
+body{
+    background:#4589b6;
+    width:700px;
+    margin:auto;
+    font:12px Arial;
+}
+
+table{
+    width:100%;
+    margin-top:50px;
+    margin-bottom:20px;
+    border-collapse:collapse;
+}
+
+table tr{
+    height:40px;
+}
+
+table tr th{
+    background:#2f3032;
+    color:#f7f7f7;
+}
+
+table tr td{
+    background:#f7f7f7;
+    color:#4589b6;
+    text-align:center;
+}
+
+a{
+    position:absolute;
+    margin-top:8px;
+    margin-left:42px;
+    font-weight:bold;
+    color:#f7f7f7;
+}
