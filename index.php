@@ -21,7 +21,6 @@
                 
         <table>
             <tr>
-                <th>Référence</th>
                 <th>Nom</th>
                 <th>Prénom</th>
                 <th>Début adhésion</th>
@@ -38,7 +37,6 @@
             ?>
 
             <tr>
-                <td><?php echo $donnees['id']; ?></td>
                 <td><?php echo $donnees['nom']; ?></td>
                 <td><?php echo $donnees['prenom']; ?></td>
                 <td><?php echo $donnees['d_adhesion']; ?></td>
@@ -53,8 +51,8 @@
         </table>  
 
         <fieldset>
-            <legend>Exportez le tableau au format PDF</legend>
-            <p><a href="export.php"><img src="pdf.png" alt="logo pdf"> Générer votre fichier PDF</a></p>    
+            <legend>Générer le tableau au format PDF afin de le diffuser facilement</legend>
+            <p><a href="export.php"><img src="pdf.png" alt="logo pdf">Cliquez vite ici afin de générer votre fichier PDF</a></p>    
         </fieldset>
     </body>
 </html>
